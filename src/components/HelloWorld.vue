@@ -104,8 +104,8 @@ export default {
         };
     },
     methods: {
-        add(i) {
-            this.cart.push(this.products[i]);
+        add() {
+            this.cart.push(this.products[0]);
             this.selectedPayment++;
         },
         remove(index) {
